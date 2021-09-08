@@ -1,10 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Style from './ColorSquare.css';
 
-const Square = () => {
-  return <p>Ho Ho Ho!</p>;
+const ColorSquare = ({ color }) => {
+  return <div className={Style.square} style={{ background: color }}></div>;
 };
 
-Square.propTypes = {};
+ColorSquare.propTypes = {
+  color: PropTypes.string.isRequired
+};
 
-export default Square;
+export default ColorSquare;

@@ -1,10 +1,6 @@
 import React from 'react';
-import Square from '../colors/ColorSquare';
+import ColorSquare from '../colors/ColorSquare';
 
 export default function App() {
-  return (
-    <>
-      <Square />
-    </>
-  );
+  return <ColorSquare color='#FFFF00'/>
 }
