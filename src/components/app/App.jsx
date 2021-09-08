@@ -1,6 +1,5 @@
 import React from 'react';
-import ColorSquare from '../colors/ColorSquare';
-
+import RandomColors from '../../containers/RandomColors';
 export default function App() {
-  return <ColorSquare color='#FFFF00'/>
+  return <RandomColors />;
 }
